@@ -9,7 +9,7 @@ function validate() {
         alert("All fields are mandatory");
         val=false;
     }
-    if (password == cpassword) {
+    if (password !== cpassword) {
         alert("Password and Confirm Password should be same");
         val=false;
     }
