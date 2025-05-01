@@ -9,16 +9,16 @@
 <body>
     <div id="form">
         <h3>Form</h3>
-        <form onsubmit="return validate()">
+        <form">
             <input type="text" id="name" placeholder="Enter your name">
             <br>
             <input type="email" id="email" placeholder="Enter your email">
             <br>
             <input type="password" id="password" placeholder="Enter your password">
             <br>
-            <input type="password" id="c-password" placeholder="Enter your password">
+            <input type="password" id="c-password" placeholder="Confirm your password">
             <br><br>
-            <button>Submit</button>
+            <button onclick="return validate()">Submit</button>
         </form>
     </div>
     <script src="script.js"></script>
